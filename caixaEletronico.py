@@ -109,10 +109,9 @@ def withdraw (withdrawAccount):
 				elif opcao == 2:
 					break;
 				else:
-					errorMessage("Opcao invalida.");
-                    
-		elif withdrawValue > withdrawAccount[3]:
-			errorMessage("Valor para saque eh maior que seu saldo.");
+					errorMessage("Opcao invalida.");       
+
+
             
 #Na opção TRANSFEReNCIA, solicita o numero da conta de destino e o valor a ser transferido. Exibe o numero e nome da conta de origem e destino e o valor a ser transferido. Pede a confirmação e atualiza os dois saldos. Ponha mensagens se a conta de destino não existir ou se for a mesma de origem.
 
